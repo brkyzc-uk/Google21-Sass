@@ -1,0 +1,52 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin: 0; }
+
+.navbar {
+  position: absolute;
+  right: 2em;
+  height: 32px; }
+  .navbar li {
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: middle;
+    color: #737373; }
+    .navbar li a {
+      color: currentColor;
+      text-decoration: none; }
+    .navbar li i:hover {
+      color: #272727; }
+    .navbar li:hover {
+      cursor: pointer; }
+    .navbar li img {
+      border-radius: 50%;
+      width: 32px;
+      height: 32px; }
+
+main.home {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -7rem;
+  width: 584px; }
+  main.home .logo {
+    width: 272px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-image: url(http://svgur.com/i/kM.svg);
+    background-repeat: no-repeat;
+    background-size: 272px 92px;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+    main.home .logo:after {
+      content: 'My';
+      display: none;
+      position: absolute;
+      right: 190px;
+      top: 72px;
+      color: #4285F4;
+      font-size: 18px; }
+
+/*# sourceMappingURL=style.css.map */
