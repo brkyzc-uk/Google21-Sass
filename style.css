@@ -48,5 +48,18 @@ main.home {
       top: 72px;
       color: #4285F4;
       font-size: 18px; }
+  main.home .search {
+    height: 44px;
+    width: 584px;
+    line-height: 44px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+    font: 16px arial,sans-serif;
+    background: url(https://i.imgur.com/qJaCSqq.png) 540px center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    padding-left: 16px; }
 
 /*# sourceMappingURL=style.css.map */
